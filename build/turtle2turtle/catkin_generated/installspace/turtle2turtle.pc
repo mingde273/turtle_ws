@@ -1,0 +1,8 @@
+prefix=/home/yl/turtle_ws/install
+
+Name: turtle2turtle
+Description: Description of turtle2turtle
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
