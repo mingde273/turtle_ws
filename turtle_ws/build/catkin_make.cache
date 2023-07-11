@@ -1,0 +1,2 @@
+turtle2turtle
+-DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/yl/turtle_ws/devel -DCMAKE_INSTALL_PREFIX=/home/yl/turtle_ws/install -G Unix Makefiles
