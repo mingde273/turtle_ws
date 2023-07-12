@@ -27,9 +27,10 @@ roscore
 ```
 
 ```
-cd 工作空间名
+cd 工作空间名(默认情况下为turtle_ws/)
+catkin_make
 source ./devel/setup.bash
-roslaunch 功能包名 test.launch
+roslaunch 功能包名(默认情况为turtle2turtle) test.launch
 ```
 
 若使用python脚本：
@@ -38,7 +39,8 @@ roscore
 ```
 
 ```
-cd 工作空间名
+cd 工作空间名(默认情况下为turtle_ws/)
 source ./devel/setup.bash
-roslaunch 功能包名 test_p.launch
+catkin_make
+roslaunch 功能包名(默认情况为turtle2turtle) test_p.launch
 ```
