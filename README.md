@@ -17,3 +17,28 @@
 4.  编写订阅节点订阅坐标信息并生成新的相对关系生成速度信息
 
 ****
+## 使用方法：
+克隆本项目到本地后开启两个命令行窗口，分别输入以下指令：
+
+若使用C++ 文件：
+
+```
+roscore
+```
+
+```
+cd 工作空间名
+source ./devel/setup.bash
+roslaunch 功能包名 test.launch
+```
+
+若使用python脚本：
+```
+roscore
+```
+
+```
+cd 工作空间名
+source ./devel/setup.bash
+roslaunch 功能包名 test_p.launch
+```
